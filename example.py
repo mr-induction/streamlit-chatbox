@@ -4,7 +4,7 @@ import time
 import simplejson as json
 
 
-llm = FakeLLM()
+llm = Claude 3 Opus
 chat_box = ChatBox()
 
 

@@ -1,4 +1,2 @@
-__pycache__
-/build
-/dist
-/streamlit_chatbox.egg-info
+.env
+__pycache__/
