@@ -16,7 +16,8 @@ def custom_default(obj):
     else:
         return str(obj)  # Convert other non-serializable objects to strings
 
-api_key = "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"
+api_key = os.getenv("ANTHROPIC_API_KEY")
+
 client = anthropic.Client(api_key=api_key)
 
 chat_box = ChatBox()
